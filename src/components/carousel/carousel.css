@@ -1,0 +1,18 @@
+.carousel{
+    display: flex;
+}
+
+.carousel__button{
+    border: none;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.carousel__image{
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -250px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  margin-left: -50px;
+  margin-right: -50px;
+}
